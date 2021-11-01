@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
-    <!-- <link rel="stylesheet" href="{{asset('css/login.css')}}"> -->
+    <link rel="stylesheet" href="{{asset('css/login.css')}}">
     <title>Login</title>
 </head>
 <body>
@@ -13,8 +12,7 @@
     <section>
 
         <div class="imageBox">
-            <img src="../Shchool Example.jpg" alt="">
-            <img src="{{asset('image/School_Example.jpg')}}" alt="">
+            <img src="{{asset('image/Shchool_Example.jpg')}}" alt="">
         </div>
 
         <div class="contentBox">
